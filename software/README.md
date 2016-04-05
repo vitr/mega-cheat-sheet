@@ -17,7 +17,8 @@ numpad issue
 http://superuser.com/questions/742171/zsh-z-shell-numpad-numlock-doesnt-work
 
 ohmyzsh plugins
-ctrl+alt
+**dirhistory**  
+ctrl+alt instead of ALT-LEFT and ALT-RIGHT in win putty
 
 # Windows
 
