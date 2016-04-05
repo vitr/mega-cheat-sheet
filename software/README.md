@@ -6,6 +6,7 @@ zsh
 https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH  
 ubuntu issue with `chsh -s $(which zsh)`    
 http://unix.stackexchange.com/questions/111365/how-to-change-default-shell-to-zsh-chsh-says-invalid-shell
+`sudo chsh -s "$(command -v zsh)" "${USER}"`
 
 via curl  
 `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
