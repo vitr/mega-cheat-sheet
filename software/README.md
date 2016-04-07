@@ -18,7 +18,7 @@ http://superuser.com/questions/742171/zsh-z-shell-numpad-numlock-doesnt-work
 
 ohmyzsh plugins
 **dirhistory**  
-ctrl+alt instead of ALT-LEFT and ALT-RIGHT in win putty
+CTRL+ALT-LEFT/RIGHT works instead of ALT-LEFT/RIGHT in putty on windows
 
 # Windows
 
