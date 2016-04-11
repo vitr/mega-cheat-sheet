@@ -20,6 +20,7 @@ ohmyzsh plugins
 **dirhistory**  
 CTRL+ALT-LEFT/RIGHT works instead of ALT-LEFT/RIGHT in putty on windows
 
+**per-directory-history**   
 CTRL+G switching between using local/global history
 
 
