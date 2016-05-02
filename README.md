@@ -24,3 +24,6 @@ Composer Cheat Sheet for developers http://composer.json.jolicode.com/
 
 ### Github
 
+        git config --global credential.helper store
+
+store username&password in `~/..git-credentials`
