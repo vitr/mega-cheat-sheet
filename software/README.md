@@ -25,6 +25,10 @@ CTRL+G switching between using local/global history
 
 
 # Windows
+## cmder
+prompt format in `cmder\vendor\init.bat`
+
+    @prompt $d$s$t $E[1;32;40m$P$S{git}{hg}$S$_$E[1;30;40m{lamb}$S$E[0m
 
 # Mac OS
 
