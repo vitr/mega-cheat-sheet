@@ -12,6 +12,9 @@ In the process of running docker I had accumulated several images that are not t
 
 `docker rmi $(docker images | grep "^<none>" | awk "{print $3}")`
 
+https://www.calazan.com/docker-cleanup-commands/  
+
+
 
 Caddy - The HTTP/2 Web Server with Fully Managed SSL https://caddyserver.com/
 
