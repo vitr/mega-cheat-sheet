@@ -13,7 +13,14 @@ via curl
 via wget   
 `sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"`
 
-numpad issue  
+numpad issue   
+http://vim.wikia.com/wiki/PuTTY_numeric_keypad_mappings  
+Run PuTTY Configuration.  
+In the left pane, select Terminal, Features.  
+Put a check mark next to "Disable application keypad mode".  
+In the left pane, select Session.  
+Save the settings.  
+
 http://superuser.com/questions/742171/zsh-z-shell-numpad-numlock-doesnt-work
 
 ohmyzsh plugins
