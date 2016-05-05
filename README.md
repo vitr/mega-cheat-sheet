@@ -3,16 +3,21 @@
 [Docker Cheat Sheet](https://github.com/wsargent/docker-cheat-sheet) https://github.com/wsargent/docker-cheat-sheet  
 stop/remove all containers  
 
-    docker stop $(docker ps -q)
+    
+    docker kill $(docker ps -q)
     docker rm $(docker ps -a -q)
-    docker rm -f $(docker ps -a -q)
+    docker rmi $(docker images -q -f dangling=true) 
+
+more here https://www.calazan.com/docker-cleanup-commands/  
+    
+    
 Remove all untagged images
 
 In the process of running docker I had accumulated several images that are not tagged. To remove these I use this command:
 
 `docker rmi $(docker images | grep "^<none>" | awk "{print $3}")`
 
-https://www.calazan.com/docker-cleanup-commands/  
+
 
 
 
