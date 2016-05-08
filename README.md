@@ -23,7 +23,7 @@ ssh docker@$(boot2docker ip)
 ```
 cat ~/.ssh/id_rsa.pub | ssh docker@$(boot2docker ip) 'cat - >> ~/.ssh/authorized_keys; chmod 600 ~/.ssh/authorized_keys'
 ```
-
+and here is already added key `c:\Users\New\.docker\machine\machines\default\id_rsa`
 
 
 
