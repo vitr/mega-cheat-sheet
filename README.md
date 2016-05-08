@@ -18,6 +18,12 @@ In the process of running docker I had accumulated several images that are not t
 `docker rmi $(docker images | grep "^<none>" | awk "{print $3}")`
 
 
+ssh docker@$(boot2docker ip)
+(password: tcuser, see https://github.com/boot2docker/boot2docker#ssh-into-vm)  
+```
+cat ~/.ssh/id_rsa.pub | ssh docker@$(boot2docker ip) 'cat - >> ~/.ssh/authorized_keys; chmod 600 ~/.ssh/authorized_keys'
+```
+
 
 
 
