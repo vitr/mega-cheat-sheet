@@ -30,6 +30,20 @@ CTRL+ALT-LEFT/RIGHT works instead of ALT-LEFT/RIGHT in putty on windows
 **per-directory-history**   
 CTRL+G switching between using local/global history
 
+### Transmission
+```
+docker create --name=transmission \
+-v /etc/localtime:/etc/localtime:ro \
+-v /home/ubuntu/data:/config \
+-v /home/ubuntu/downloads:/downloads \
+-v /home/ubuntu/watch:/watch \
+-e PGID=1000 -e PUID=1000 \
+-p 9091:9091 -p 51413:51413 \
+linuxserver/transmission
+
+docker start transmission
+```
+
 
 # Windows
 ## cmder
