@@ -1,6 +1,10 @@
 ### Mega Cheat Sheet
 
 [Docker Cheat Sheet](https://github.com/wsargent/docker-cheat-sheet) https://github.com/wsargent/docker-cheat-sheet  
+    curl -sSL https://get.docker.com/ | sh
+    sudo service docker restart
+
+
 stop/remove all containers  
 
     
