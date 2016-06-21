@@ -12,6 +12,10 @@ stop/remove all containers
     docker kill $(docker ps -q)
     docker rm $(docker ps -a -q)
     docker rmi $(docker images -q -f dangling=true) 
+    
+    docker volume ls -qf dangling=true | xargs -r docker volume rm
+    
+    
 
 more here https://www.calazan.com/docker-cleanup-commands/  
     
