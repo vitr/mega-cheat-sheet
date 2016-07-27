@@ -50,3 +50,12 @@ Composer Cheat Sheet for developers http://composer.json.jolicode.com/
         git config --global credential.helper store
 
 store username&password in `~/..git-credentials`
+
+manage your stars
+
+https://app.astralapp.com/dashboard
+
+edit your content online
+
+http://prose.io/
+
